@@ -27,7 +27,7 @@
                                                                        ('full_refresh', 'boolean'),
                                                                        ('compiled_code', 'long_string'),
                                                                        ('failures', 'bigint'),
-                                                                       ('query_id', 'string'),
+                                                                       ('query_id', 'string')
                                                                        ]) %}
     {{ return(dbt_run_results_empty_table_query) }}
 {% endmacro %}
